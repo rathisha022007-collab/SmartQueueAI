@@ -1,4 +1,3 @@
-
 from flask import Flask, request, jsonify, redirect, url_for, render_template_string
 from flask_cors import CORS
 
@@ -22,7 +21,7 @@ APP_NAME = "SmartQueue AI"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_FILE = os.path.join(BASE_DIR, "smartqueue.db")
 
-PORT = int(os.environ.get("PORT", 5000))
+PORT = int(os.environ.get("PORT", 10000))
 
 HISTORY_DAYS = 7
 NO_SHOW_SECONDS = 120
@@ -4088,3 +4087,4 @@ if __name__ == "__main__":
         debug=False,
         use_reloader=False
     )
+
