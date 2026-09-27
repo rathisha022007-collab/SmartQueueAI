@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+smartqueue.db
+.env
+.venv/
+venv/
+.ipynb_checkpoints/
